@@ -1,2 +1,37 @@
+/***Slide BG Colors***/
+/****Mixins***/
+html {
+  height: 100%; }
+
 body {
-  background: white; }
+  background: #ccc;
+  color: #fff;
+  font-family: "Lato";
+  height: 100%; }
+
+section, article, header {
+  display: block; }
+
+.full-screen {
+  height: 100%; }
+
+.slide {
+  text-align: center; }
+  .slide h2 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 60px; }
+
+#slide1 {
+  background: blue; }
+
+#slide2 {
+  background: orange; }
+
+#slide3 {
+  background: yellow; }

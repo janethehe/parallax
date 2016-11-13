@@ -1,3 +1,43 @@
+@import "variables";
+
+html{
+	height: 100%;
+}
+
 body{
-	background: white;
+	background: $bodybg;
+	color: $default;
+	font-family: $bodyFont;
+	height: 100%;
+}
+
+section, article, header{
+	display: block;
+}
+
+.full-screen{
+	height: 100%;
+}
+
+.slide{
+	text-align: center;
+
+	h2{
+		margin: 0;
+		padding: 0;
+		@include vertical-align;
+		font-size: 60px;
+	}
+}
+
+#slide1{
+	background: $scene1bg;
+}
+
+#slide2{
+	background: $scene2bg;
+}
+
+#slide3{
+	background: $scene3bg;
 }
